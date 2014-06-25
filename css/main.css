@@ -153,6 +153,12 @@ h1, h2, h3, h4, h5 {
     border-radius: 1px;
 }
 
+blockquote {
+    margin: 0;
+    padding-left: 2em;
+}
+
+blockquote,
 pre[class*="language-"] {
     border-left: 7px solid #4F9BB1;
 }
