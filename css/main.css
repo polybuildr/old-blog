@@ -195,6 +195,10 @@ pre[class*="language-"] {
         display: none;
     }
     
+    .container.single #blog-title {
+        display: none;
+    }
+
     .container.column {
         margin-left: 0;
     }
