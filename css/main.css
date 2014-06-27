@@ -41,8 +41,12 @@ h1, h2, h3, h4, h5 {
     padding-bottom: 5em;
 }
 
-#blog-title {
+h1#blog-title {
     font-size: 2.6em;
+}
+
+h1#blog-title a {
+    color: white;
 }
 
 .post {
