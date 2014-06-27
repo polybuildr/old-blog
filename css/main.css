@@ -45,7 +45,7 @@ h1#blog-title {
     font-size: 2.6em;
 }
 
-h1#blog-title a {
+.mobile-header h1#blog-title a {
     color: white;
 }
 
