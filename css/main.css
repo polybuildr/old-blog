@@ -184,6 +184,29 @@ pre[class*="language-"] {
     padding-bottom: 2em;
 }
 
+.btn {
+    font-size: 16px;
+    text-decoration: none;
+    background-color: #2187A5;
+    color: #fff;
+    padding: 0.5em 0.8em;
+    border-radius: 2px;
+    transition: background-color 0.1s;
+}
+
+.btn.btn-large {
+    font-size: 20px;
+}
+
+.btn.btn-small {
+    font-size: 14px;
+}
+
+.btn:hover {
+    background-color: #196B83;
+    color: #fff;
+}
+
 @media (max-width: 960px) {
     #floating-home {
         position: static;
