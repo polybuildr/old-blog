@@ -156,10 +156,14 @@ h1#blog-title {
     position: fixed;
     top: 0;
     right: 0;
-    background-color: #53a1b8;
+    background-color: #2187A5;
     color: #fff;
     padding: 0.7em 1em;
     border-radius: 1px;
+}
+
+#floating-home:hover {
+    background-color: #196B83;
 }
 
 blockquote {
