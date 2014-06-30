@@ -177,7 +177,7 @@ pre[class*="language-"] {
 .social-plugins div,
 .social-plugins iframe {
     width: 80px;
-    float: left;
+    float: left !important;
 }
 
 .container.single .post {
@@ -223,7 +223,7 @@ pre[class*="language-"] {
     
     .social-plugins div,
     .social-plugins iframe {
-        float: none;
+        float: none !important;
         display: block;
         margin: 10px 0;
         height: 1.7em;
