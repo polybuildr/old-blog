@@ -9,6 +9,7 @@
         <style>
             body {
                 transition: background-color 0.8s;
+                background-color: black;
             }
             h1 {
                 color: rgba(255, 255, 255, 0.7);
@@ -30,14 +31,15 @@
         <script src="jquery.min.js"></script>
         <script>
         function rcc() {
-            return Math.round(Math.random() * 150) + 50;
+            return Math.round(Math.random() * 150) + 40;
         }
 
         function rc() {
             return 'rgb(' + rcc() + ', ' + rcc() + ',' + rcc() + ')';
         }
         window.setInterval(function() {
-            $('body').css('background-color', rc());
+            document.body.style.backgroundColor = rc()
+            //$('body').css('background-color', rc());
             }, 1000);
         </script>
     </body>
