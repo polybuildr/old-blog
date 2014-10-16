@@ -4,12 +4,12 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Colours</title>
-        <link rel="stylesheet" href="normalize.min.css">
         <link href='http://fonts.googleapis.com/css?family=Crete+Round' rel='stylesheet' type='text/css'>
         <style>
             body {
                 transition: background-color 0.8s;
                 background-color: black;
+                margin: 0;
             }
             h1 {
                 color: rgba(255, 255, 255, 0.7);
@@ -36,6 +36,7 @@
         function rc() {
             return 'rgb(' + rcc() + ', ' + rcc() + ',' + rcc() + ')';
         }
+        document.body.style.backgroundColor = rc()
         window.setInterval(function() {
             document.body.style.backgroundColor = rc()
             }, 2000);
