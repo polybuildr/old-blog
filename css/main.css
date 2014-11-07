@@ -210,6 +210,12 @@ pre[class*="language-"] {
     color: #fff;
 }
 
+.mobile-header {
+    padding: 1em;
+    font-weight: 300;
+    color: #fff;
+}
+
 @media (max-width: 960px) {
     #floating-home {
         position: static;
@@ -227,6 +233,10 @@ pre[class*="language-"] {
 }
 
 @media (max-width: 600px) {
+    .mobile-header {
+        display: block;
+    }
+
     .sidebar-container {
         display: block;
         position: static;
@@ -236,7 +246,8 @@ pre[class*="language-"] {
         text-align: center;
     }
 
-    .sidebar * {
+    .sidebar *,
+    .mobile-header *{
         margin: 5px 0;
     }
 
