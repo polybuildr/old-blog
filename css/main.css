@@ -1,6 +1,7 @@
 body {
     background-color: #fbfbfb;
     color: #333;
+    font-family: 'Noto Sans', sans-serif;
     font-size: 15px;
 }
 
@@ -24,8 +25,8 @@ h2 a:hover {
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Open Sans', sans-serif;
     margin-bottom: 0.2em;
+    font-weight: 400;
 }
 
 .container.column {
@@ -105,7 +106,6 @@ h1#blog-title {
 .mobile-header {
     font-size: 1.3em;
     padding: 1em;
-    font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     color: #fff;
 }
@@ -228,9 +228,28 @@ pre[class*="language-"] {
 
 @media (max-width: 600px) {
     .sidebar-container {
+        display: block;
+        position: static;
+        font-size: 14px;
+        width: auto;
+        height: auto;
+        text-align: center;
+    }
+
+    .sidebar * {
+        margin: 5px 0;
+    }
+
+    .sidebar h1,
+    .sidebar h2 {
+        font-weight: 400;
+    }
+
+    .sidebar hr,
+    .sidebar-extra-info {
         display: none;
     }
-    
+
     .container.single #blog-title {
         display: none;
     }
@@ -238,15 +257,11 @@ pre[class*="language-"] {
     .container.column {
         margin-left: 0;
     }
-    
-    .mobile-header {
-        display: block;
-    }
-    
+
     .container.column {
         padding: 0 0.5em;
     }
-    
+
     .social-plugins div,
     .social-plugins iframe {
         float: none !important;
@@ -254,11 +269,11 @@ pre[class*="language-"] {
         margin: 10px 0;
         height: 1.7em;
     }
-    
+
     #blog-title {
         margin: 0;
     }
-    
+
     h2.post-title {
         margin: 0.2em 0;
     }
