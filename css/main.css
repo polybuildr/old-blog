@@ -233,6 +233,9 @@ pre[class*="language-"] {
 }
 
 @media (max-width: 600px) {
+    .post img {
+        width: 100%;
+    }
     .mobile-header {
         display: block;
     }
