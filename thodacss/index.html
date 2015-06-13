@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>ThodaCSS | Bit Nebula</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../css/normalize.css">
+        <link rel="stylesheet" href="../css/monoblue.css">
+        <link href="../css/prism.css" rel="stylesheet">
+        <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <div class="container single">
+            <h1 id="blog-title"><a href="../">Bit Nebula</a></h1>
+            <div class="post">
+                <div class="post-title-section">
+                    <h2 class="post-title">ThodaCSS</h2>
+                    <div class="post-tags"><span class="tag">#code</span></div>
+                    <h3 class="post-date">13th June, 2015</h3>
+                </div>
+            <p>I've been writing CSS for over 3 years now. I used a lot of <a href="http://getbootstrap.com">Bootstrap</a> when it was still at v2.3.2. I've also taken a look at other CSS frameworks, such as <a href="http://getskeleton.com/">Skeleton</a> and <a href="http://purecss.io/">Pure</a> and also looked at smaller projects, such as <a href="http://daneden.github.io/Toast/">Toast</a>, a CSS grid implementation. However, most of my projects involved significant customization - some projects didn't use a framework at all - so I ended up picking up a lot of CSS.</p>
+<p>I've always thought that frameworks as complete as Bootstrap (sometimes referred to as <em>bloated</em>) were awesome. Need a navbar? Of course it's included. Need a sliding image carousel? Yep, we've got that too.</p>
+<p>But I've always wondered. What if, instead of including everything that a project might need, you simply included some basics? How much code would you have to write? How would it compare to Bootstrap's <a href="https://github.com/twbs/bootstrap/blob/master/dist/css/bootstrap.min.css">whopping 122.5 kB</a>?</p>
+<p><!--more-->I thought I'd give it a try. Ten days ago, I released <a href="http://polybuildr.github.io/thodacss">ThodaCSS v0.1.0</a>. ThodaCSS is a "lightweight, minimal CSS framework", hence the name <em>Thoda</em> CSS. (The word <em>thoda</em> in Hindi, means "a little" or "some".)</p>
+<p>ThodaCSS doesn't include much. Some typography, buttons, a responsive grid, a navbar, tables, forms, a sidebar, a "hero unit" and some utility classes. Very minimal compared to other more <em>complete</em> frameworks. That's why it weighs in at just 7.2 kB (9 kB if I include <a href="http://necolas.github.io/normalize.css/"><code>normalize.css</code></a>, which I should). Just some basic features and a small footprint. I think it's a good deal.</p>
+<p>If you're a front-end web developer, do try it out. If you find anything wrong with it, please <a href="https://github.com/polybuildr/thodacss/issues">file an issue on GitHub</a>. It's licensed under the MIT license, so contributions are, of course, very welcome!</p>
+
+            </div>
+            <div class="social-plugins">
+                <div class="fb-like" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
+                <a href="https://twitter.com/share" class="twitter-share-button" data-dnt="true">Tweet</a>
+                <div class="g-plusone" data-size="medium"></div>
+            </div>
+        </div>
+        <a href="../" id="floating-home">&lt;&lt; Home</a>
+        <script src="../js/prism.js"></script>
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+            ga('create', 'UA-52364165-1', 'auto');
+            ga('send', 'pageview');
+        </script>
+
+        <!-- G +1 -->
+        <script type="text/javascript">
+             (function() {{
+               var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+               po.src = 'https://apis.google.com/js/platform.js';
+               var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+             }})();
+        </script>
+        <!-- Twitter -->
+        <script>!function(d,s,id){{var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){{js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}}}(document, 'script', 'twitter-wjs');</script>
+        <!-- FB -->
+        <script>(function(d, s, id) {{
+         var js, fjs = d.getElementsByTagName(s)[0];
+         if (d.getElementById(id)) return;
+         js = d.createElement(s); js.id = id;
+         js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
+         fjs.parentNode.insertBefore(js, fjs);
+        }}(document, 'script', 'facebook-jssdk'));</script>
+    </body>
+</html>
