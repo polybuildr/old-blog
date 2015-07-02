@@ -132,6 +132,12 @@ code {
     padding: .1em .2em;
 }
 
+pre code {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+}
+
 @media (max-width: 800px) {
     #floating-home {
         position: static;
