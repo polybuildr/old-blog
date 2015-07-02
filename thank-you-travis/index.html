@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Thank you, Travis CI! | Bit Nebula</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../css/normalize.css">
+        <link rel="stylesheet" href="../css/monoblue.css">
+        <link href="../css/prism.css" rel="stylesheet">
+        <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <div class="container single">
+            <h1 id="blog-title"><a href="../">Bit Nebula</a></h1>
+            <div class="post">
+                <div class="post-title-section">
+                    <h2 class="post-title">Thank you, Travis CI!</h2>
+                    <div class="post-tags"><span class="tag">#software</span></div>
+                    <h3 class="post-date">3rd July, 2015</h3>
+                </div>
+            <p>After looking at how <a href="http://yeoman.io">yeoman.io</a> generates their website using <a href="https://travis-ci.org">Travis CI</a>, I thought I'd give it a try myself. After spending a couple of hours figuring out how all of this stuff works (and making a lot of mistakes<sup>[1]</sup> in the process), I am pleased to say that this blog is now built by Travis! :D</p>
+<p><!--more-->The process itself is actually quite cool. Travis <a href="https://travis-ci.org/polybuildr/blog">runs a build</a> (basically whatever it is asked to do in <code>.travis.yml</code>) every time I push something to the <code>master</code> branch of <a href="https://github.com/polybuildr/blog">polybuildr/blog</a>.</p>
+<p>In the build process, I ask Travis to do this:</p>
+<pre><code class="lang-bash">#!/bin/bash
+set -ev
+HASH=$(git rev-parse --short HEAD)
+git clone --branch=gh-pages https://github.com/polybuildr/blog.git blog
+petroglyph --regenerate
+cd blog
+if [ -n &quot;$(git status --porcelain)&quot; ]; then
+    git config user.name &quot;Travis CI&quot;
+    git config user.email travis@travis-ci.org
+    git add .
+    git commit -m &quot;Built blog from commit $HASH&quot;
+    git push --force --quiet https://${GH_TOKEN}@github.com/polybuildr/blog.git &gt; /dev/null 2&gt;&amp;1
+else
+    echo &quot;No changes to push.&quot;
+fi
+</code></pre>
+<p>If I see other people using petroglyph for their own blogs, I'll publish a guide to using Travis for deploying a petroglyph blog to GitHub pages, but for now, I don't think that will be of any particular benefit.</p>
+<p>For now, I can enjoy the sweet pleasure of simply adding a markdown file to the <code>posts/</code> directory of <code>polybuildr/petroglyph:master</code> and letting Travis take care of all the hard CI work. :')</p>
+<p>[1]: These mistakes ranged from letting my GitHub auth token show up in the build log of Travis CI to realising that if two posts are published on the same day (using the <code>date</code> field in the YAML front matter), then there's <a href="https://github.com/polybuildr/petroglyph/issues/11">a bit of non-determinism</a> (no, seriously. non-determinism) in the order that the posts show up on the blog's front page.</p>
+
+            </div>
+            <div class="social-plugins">
+                <div class="fb-like" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
+                <a href="https://twitter.com/share" class="twitter-share-button" data-dnt="true">Tweet</a>
+                <div class="g-plusone" data-size="medium"></div>
+            </div>
+        </div>
+        <a href="../" id="floating-home">&lt;&lt; Home</a>
+        <script src="../js/prism.js"></script>
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+            ga('create', 'UA-52364165-1', 'auto');
+            ga('send', 'pageview');
+        </script>
+        <!-- G +1 -->
+        <script src="https://apis.google.com/js/platform.js" async defer></script>
+        <!-- Twitter -->
+        <script>!function(d,s,id){{var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){{js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}}}(document, 'script', 'twitter-wjs');</script>
+        <!-- FB -->
+        <script>(function(d, s, id) {{
+         var js, fjs = d.getElementsByTagName(s)[0];
+         if (d.getElementById(id)) return;
+         js = d.createElement(s); js.id = id;
+         js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
+         fjs.parentNode.insertBefore(js, fjs);
+        }}(document, 'script', 'facebook-jssdk'));</script>
+    </body>
+</html>
