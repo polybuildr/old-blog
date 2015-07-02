@@ -1,6 +1,7 @@
 ---
 title: ThodaCSS
 tags: software
+date: 2015-06-13
 ---
 I've been writing CSS for over 3 years now. I used a lot of [Bootstrap](http://getbootstrap.com) when it was still at v2.3.2. I've also taken a look at other CSS frameworks, such as [Skeleton](http://getskeleton.com/) and [Pure](http://purecss.io/) and also looked at smaller projects, such as [Toast](http://daneden.github.io/Toast/), a CSS grid implementation. However, most of my projects involved significant customization - some projects didn't use a framework at all - so I ended up picking up a lot of CSS.
 

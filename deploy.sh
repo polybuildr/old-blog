@@ -9,7 +9,7 @@ if [ -n "$(git status --porcelain)" ]; then
     git config user.email travis@travis-ci.org
     git add .
     git commit -m "Built blog from commit $HASH"
-    git --force --quiet push https://${GH_TOKEN}@github.com/polybuildr/blog.git > /dev/null 2>&1
+    git push --force --quiet https://${GH_TOKEN}@github.com/polybuildr/blog.git > /dev/null 2>&1
 else
     echo "No changes to push."
 fi
