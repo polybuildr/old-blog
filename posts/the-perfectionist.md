@@ -1,0 +1,126 @@
+---
+title: The Perfectionist
+tags: shortstory
+date: 2014-06-27
+---
+"Last call for passengers travelling to Newark by United Airlines Flight 49, please report to gate 2 immediately for departure. Last call for..."
+
+I woke up with a start. I hurried to the gate, shoving the copy of 'The Book Thief' that I'd bought at the airport into my backpack. This was the first time I wasn't already in the plane by the time the last call sounded. My parents would be mortified if they found out. 
+
+<!--more-->Fifteen minutes later, after a long walk through the long aerobridge that the designers of the Chhatrapati Shivaji International Airport seemed to like using so much, I boarded the plane. I checked my boarding pass for my seat number. 25 B. Aisle seat, as requested.
+
+I walked to my seat, reminiscing about the times I'd begged my parents to let me sit at the window seat, so that I could look out the window. The wonder faded very quickly when I realised I was claustrophobic, and I had switched to asking for the aisle seat instead.
+
+I reached my seat, took off my backpack and sat down. The window seat was occupied, but as per my usual protocol of eschewing communication with fellow passengers, I ignored him and devoted my attention to the entertainment system instead.
+
+Around twenty minutes later, the captain made the usual announcement. "Cabin crew, please take your seats for take-off." I stopped paying attention to the in-flight entertainment and considered the significance of the flight. 23 years of age, on my first flight to the USA, with a recently acquired job at a top Silicon Valley firm. I couldn't help but smiling when I remembered my parents happy faces when we had received confirmation of the job offer. 
+
+The flight to Newark was uneventful. Apart from a few glances at my 70-something, white-haired, suit-donning neighbour, I'd passed most of my time watching movies and taking naps. I spent the two hour stopover at Newark reading 'The Book Thief'. My next flight was to Denver with another stopover there before my last flight to San Jose.
+
+As I reached my seat on the Boeing 737 at Newark (another aisle seat), I was shocked to see the same (quite literally) old guy sitting in the window seat next to mine. He looked at my surprised face with raised eyebrows. I quickly corrected my expressions into what I hoped would pass for a friendly smile. He lowered his eyebrows and returned to reading the magazine in his hands.
+
+I felt slightly betrayed. To ignore a fellow passenger for one flight was reasonable enough, but I couldn't do it for two and not look very rude. Why would fate and the airline do this to me?
+
+Well, I had no choice. I would have to talk to this stranger now, I decided with a sigh.
+
+"Hi," I said. "Hello," he said, at the exact same instant, in what sounded to me like a polished British accent. We smiled.
+
+"My name is Krishna," I said, holding out my hand. 
+
+"John," he replied, shaking the proffered hand.
+
+The rest of the 4 hour journey consisted of a very interesting conversation I had with John. I told him about myself and he told me about himself. He was, as I'd rightly guessed, British and 74 years of age.
+
+His family had been rather poor, and he'd spent several years of his youth working on a farm. Later, after his father decided that he should get educated, he'd gone to a rather mediocre college in England. This went on for a year until his professors realised that he was very hard working and far too intelligent to be in such a college. They arranged for him to meet someone from Oxford to see if he could be offered a scholarship. He was, as they told the official from Oxford, a perfectionist. He had then graduated from Oxford with a first class honours degree in Mathematics and Philosophy. He had then gone on to Harvard Business School to graduate summa cum laude with a Masters in Law and Business. His first job was with a law firm in Chicago with an income high enough for a luxurious lifestyle in the late 70s. From then on, he had only risen higher, and even age could not bring about his retirement.
+
+"What about your children?" I asked him. "What are they doing?"
+
+It was then that the first touch of sadness showed on his face.
+
+"I don't have children," he said.
+
+I realised I'd touched upon a sensitive issue and decided to let it go.
+
+"I never married," he said with a note of regret.
+
+I must admit, I was surprised. A perfectly successful man, living a very comfortable lifestyle, but had never married. _Why not?_, I wondered.
+
+"I know I probably shouldn't be asking," I said apprehensively, "but why didn't you marry?"
+
+Yes, very rude. I know. But I was curious. Did he find someone with whom things went wrong later? Did he never feel the need, caught up in his busy life? Or was it something else?
+
+"I did not marry," he said, "because I was looking for the perfect woman."
+
+Ah. The perfectionist, as always. It made sense. He had always been a perfectionist in his education and work. He had attempted to be a perfectionist in his social life too. Perfectionists don't always get what they want. If you're out searching for something 'perfect', it's unlikely you'll find it.
+
+We chatted about less consequential things after that. Denver was his last stop.
+
+"Ladies and gentlemen, as we start our descent, please make sure your seat backs and tray tables are in their full upright position..." the captain started his announcement.
+
+"It was a pleasure talking to you, Mr. Wilson," I told John.
+
+"Pleasure talking to you too, son," he replied, smiling. "Here, take my card."
+
+We exchanged business cards. I gave him my old one, not yet having been issued one at the new firm.
+
+The plane landed. We disembarked, and walked to the airport's exit together. I said goodbye to him and he wished me good luck. It would be the last time I met John Wilson.
+
+***
+
+A week after I began my job, I thought back to that conversation I'd had with John. That was when I began wondering. He'd told me that as part of his work, he'd worked at half a dozen companies and visited over two dozen countries. He must have met thousands of people. Out of those several thousand people that he'd met, hadn't he found the perfect woman? Not even one that matched his expectations?
+
+I decided to not think so much about some random person that I'd met and focussed on my work instead.
+
+***
+
+A week later, I still couldn't stop wondering. Did no one perfect exist for John? All those things the Bollywood movies promised, about your true love being out there for you and all, was this a perfect example of how fake they were?
+
+I decided to email him and ask.
+
+> Dear John,
+> 
+> I know it's none of my business, but I couldn't help wondering. Did you never find anybody perfect? Did not a single woman match your expectations?
+> 
+> Sincerely,  
+> Krishna
+
+The next day, I received a reply.
+
+> Hi Krishna,
+> 
+> I'm surprised you still remember our little conversation. To tell you the truth, I expected you to ask me this question during the flight.
+> 
+> To answer your question, yes, there was a woman. I met her in my late 20s. And yes, she was perfect. Intelligent, caring, beautiful. She was everything I could have wished for.
+> 
+> Regards,  
+> John
+
+That makes no sense, I thought. If he found the perfect woman, why didn't he marry her?
+
+> Hi John,
+> 
+> If you found the perfect woman, why didn't you marry her?
+> 
+> Krishna
+
+I didn't receive a reply the next day. Nor the day after. Had I offended him?
+
+> Hi John,
+> 
+> I just wanted to say I'm really sorry if I offended you. I shouldn't have asked such a personal question.
+> 
+> Apologies,  
+> Krishna
+
+A week later, I received an email from him. It was to become one of the biggest lessons I learnt in my life.
+
+> Hi Krishna,
+> 
+> Sorry for my late reply. I'm not offended at all. I just got caught up in some work and didn't have the time to check my personal email.
+> 
+> Why didn't I marry her? Yes, that's the million dollar question, isn't it? I knew I'd found the perfect woman. That wasn't the problem. The problem was that just as I had been searching for the perfect woman, she was looking for the perfect man.
+> 
+> Sincerely,  
+> John
+
+_Inspiration: [Quora](http://qr.ae/26OPJ)_
