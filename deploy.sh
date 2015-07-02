@@ -7,6 +7,7 @@ cd blog
 if [ -n "$(git status --porcelain)" ]; then
     git config user.name "Travis CI"
     git config user.email travis@travis-ci.org
+    git add .
     git commit -m "Built blog from commit $HASH"
     git push https://${GH_TOKEN}@github.com/polybuildr/blog.git
 else
