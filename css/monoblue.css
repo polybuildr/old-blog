@@ -125,6 +125,13 @@ blockquote {
     margin-top: -4px;
 }
 
+code {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: .1em .2em;
+}
+
 @media (max-width: 800px) {
     #floating-home {
         position: static;
