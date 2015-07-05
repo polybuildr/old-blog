@@ -30,4 +30,4 @@ If I see other people using petroglyph for their own blogs, I'll publish a guide
 
 For now, I can enjoy the sweet pleasure of simply adding a markdown file to the `posts/` directory of `polybuildr/petroglyph:master` and letting Travis take care of all the hard CI work. :')
 
-[^fn-travis-mistakes: These mistakes ranged from letting my GitHub auth token show up in the build log of Travis CI to realising that if two posts are published on the same day (using the `date` field in the YAML front matter), then there's [a bit of non-determinism](https://github.com/polybuildr/petroglyph/issues/11) (no, seriously. non-determinism) in the order that the posts show up on the blog's front page.
+[^fn-travis-mistakes]: These mistakes ranged from letting my GitHub auth token show up in the build log of Travis CI to realising that if two posts are published on the same day (using the `date` field in the YAML front matter), then there's [a bit of non-determinism](https://github.com/polybuildr/petroglyph/issues/11) (no, seriously. non-determinism) in the order that the posts show up on the blog's front page.
