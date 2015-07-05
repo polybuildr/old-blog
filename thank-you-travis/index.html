@@ -18,7 +18,7 @@
                     <div class="post-tags"><span class="tag">#software</span></div>
                     <h3 class="post-date">3rd July, 2015</h3>
                 </div>
-            <p>After looking at how <a href="http://yeoman.io">yeoman.io</a> generates their website using <a href="https://travis-ci.org">Travis CI</a>, I thought I'd give it a try myself. After spending a couple of hours figuring out how all of this stuff works (and making a lot of mistakes<sup>[1]</sup> in the process), I am pleased to say that this blog is now built by Travis! :D</p>
+            <p>After looking at how <a href="http://yeoman.io">yeoman.io</a> generates their website using <a href="https://travis-ci.org">Travis CI</a>, I thought I'd give it a try myself. After spending a couple of hours figuring out how all of this stuff works (and making a lot of mistakes[^fn-travis-mistakes] in the process), I am pleased to say that this blog is now built by Travis! :D</p>
 <p><!--more-->The process itself is actually quite cool. Travis <a href="https://travis-ci.org/polybuildr/blog">runs a build</a> (basically whatever it is asked to do in <code>.travis.yml</code>) every time I push something to the <code>master</code> branch of <a href="https://github.com/polybuildr/blog">polybuildr/blog</a>.</p>
 <p>In the build process, I ask Travis to do this:</p>
 <pre><code class="lang-bash">#!/bin/bash
@@ -39,7 +39,7 @@ fi
 </code></pre>
 <p>If I see other people using petroglyph for their own blogs, I'll publish a guide to using Travis for deploying a petroglyph blog to GitHub pages, but for now, I don't think that will be of any particular benefit.</p>
 <p>For now, I can enjoy the sweet pleasure of simply adding a markdown file to the <code>posts/</code> directory of <code>polybuildr/petroglyph:master</code> and letting Travis take care of all the hard CI work. :')</p>
-<p>[1]: These mistakes ranged from letting my GitHub auth token show up in the build log of Travis CI to realising that if two posts are published on the same day (using the <code>date</code> field in the YAML front matter), then there's <a href="https://github.com/polybuildr/petroglyph/issues/11">a bit of non-determinism</a> (no, seriously. non-determinism) in the order that the posts show up on the blog's front page.</p>
+<p>[^fn-travis-mistakes: These mistakes ranged from letting my GitHub auth token show up in the build log of Travis CI to realising that if two posts are published on the same day (using the <code>date</code> field in the YAML front matter), then there's <a href="https://github.com/polybuildr/petroglyph/issues/11">a bit of non-determinism</a> (no, seriously. non-determinism) in the order that the posts show up on the blog's front page.</p>
 
             </div>
             <div class="social-plugins">
