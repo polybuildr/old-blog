@@ -5,7 +5,7 @@
 body {
     font-size: 18px;
     font-family: 'Open Sans', sans-serif;
-    background-color: #fcfcfc;
+    background-color: #fff;
 }
 
 a {
@@ -23,6 +23,7 @@ a:hover {
 
 .container.column {
     margin-left: 25%;
+    padding: 2em;
     width: 75%;
 }
 
@@ -52,7 +53,7 @@ a:hover {
 .container.column hr {
     border: none;
     border-top: 1px solid #666;
-    margin: 0 2em;
+    margin: 2em 0;
 }
 
 .container.column h2,
@@ -69,10 +70,6 @@ a:hover {
     font-size: 2em;
 }
 
-.container.column .post {
-    margin: 2em;
-}
-
 .container.single #blog-title {
     text-align: center;
 }
@@ -81,13 +78,18 @@ a:hover {
     line-height: 1.5em;
 }
 
-.post .tag {
+.tag {
     font-size: 0.8em;
     color: #666;
     padding: 0.2em 0.5em;
     background-color: #eee;
     border-radius: 2px;
     margin-right: 5px;
+}
+
+.post a.tag:hover {
+    background-color: #ddd;
+    color: #666;
 }
 
 #floating-home {
@@ -115,6 +117,10 @@ blockquote {
     padding-left: 1em;
 }
 
+.social-plugins {
+    margin-top: 2em;
+}
+
 .social-plugins div,
 .social-plugins iframe {
     width: 80px;
@@ -126,9 +132,11 @@ blockquote {
 }
 
 code {
-    background-color: #fff;
+    background-color: #f4f4f4;
     border: 1px solid #ccc;
     border-radius: 3px;
+    color: #333;
+    font-family: 'Ubuntu Mono', Consolas, Monaco, monospace;
     padding: .1em .2em;
 }
 
@@ -152,6 +160,10 @@ pre code {
         width: 90%;
     }
 
+    .container.single hr {
+        margin: 1em 0;
+    }
+
     .sidebar-container {
         padding: 0;
         position: static;
@@ -166,9 +178,5 @@ pre code {
     .sidebar h1,
     .sidebar h2 {
         margin: .2em
-    }
-
-    .container.column .post {
-        margin: 1em 2em;
     }
 }
