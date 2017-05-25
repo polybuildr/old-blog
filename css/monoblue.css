@@ -180,3 +180,10 @@ pre code {
         margin: .2em
     }
 }
+
+/* Bye bye, old blog. */
+.bye-notice {
+    background-color: #ffd75f;
+    padding: 1em;
+    margin: 1em 0;
+}
